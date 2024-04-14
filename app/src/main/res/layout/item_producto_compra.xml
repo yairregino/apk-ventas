@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="30px">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30px"
+        android:background="#DFDEDE"
+        android:orientation="horizontal"
+        android:padding="10px">
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="256dp"
+            android:layout_height="159dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/productos_item" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:padding="20px">
+
+            <TextView
+                android:id="@+id/txt_nombre"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nombre: "
+                android:textColor="#673AB7"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txt_precio"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Precio: "
+                android:textColor="#1E7022"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txt_stock"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Stock:"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/boton_agregar_carrito"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Agregar a carrito"
+                android:textAllCaps="false"
+                android:textColor="#EDEDED"
+                android:textColorHint="#FFFFFF" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

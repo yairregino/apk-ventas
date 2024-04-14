@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PrincipalMenuActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="233dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="30px"
+            android:textAlignment="center">
+
+            <Button
+                android:id="@+id/productos"
+                android:layout_width="101dp"
+                android:layout_height="200dp"
+                android:layout_margin="20px"
+                android:layout_weight="1"
+                android:background="@drawable/productos"
+                android:backgroundTintMode="multiply"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:gravity="bottom|center_horizontal"
+                android:paddingBottom="10px"
+                android:text="Productos"
+                android:textColor="#FFFFFF"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/empleados"
+                android:layout_width="101dp"
+                android:layout_height="200dp"
+                android:layout_margin="20px"
+                android:layout_weight="1"
+                android:background="@drawable/empelados"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:gravity="bottom|center_horizontal"
+                android:paddingBottom="10px"
+                android:text="Empleados"
+                android:textColor="#FFFFFF"
+                android:textSize="30sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="212dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="30px">
+
+            <Button
+                android:id="@+id/clientes"
+                android:layout_width="101dp"
+                android:layout_height="200dp"
+                android:layout_margin="20px"
+                android:layout_weight="1"
+                android:background="@drawable/clientes"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:gravity="bottom|center_horizontal"
+                android:paddingBottom="10px"
+                android:text="Clientes"
+                android:textColor="#FFFFFF"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/ventas"
+                android:layout_width="101dp"
+                android:layout_height="200dp"
+                android:layout_margin="20px"
+                android:layout_weight="1"
+                android:background="@drawable/vender"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:gravity="bottom|center_horizontal"
+                android:paddingBottom="10px"
+                android:text="Vender"
+                android:textColor="#FFFFFF"
+                android:textSize="30sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="30px">
+
+            <Button
+                android:id="@+id/lista_ventas"
+                android:layout_width="190dp"
+                android:layout_height="200dp"
+                android:layout_margin="20px"
+                android:background="@drawable/ventas"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:gravity="bottom|center_horizontal"
+                android:paddingBottom="10px"
+                android:text="Ventas"
+                android:textColor="#FFFFFF"
+                android:textSize="30sp" />
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>
